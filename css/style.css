@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content {
+    margin: 10px;
+}
+/*HEADER*/
+.header-col {
+    width: 50%;
+    height: 75px;
+    border: 2px dashed black;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #007AE9;
+    color: white;
+    height: 75px;
+}
+.float-end {
+    float: right;
+}
+
