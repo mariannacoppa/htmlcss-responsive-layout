@@ -177,3 +177,13 @@ footer .container {
     }
 }
 
+/*responsività desktop*/
+@media screen and (min-width: 1160px) {
+    .col-50 {
+        width: 50%;
+    }
+    #benefits .col-33 {
+        width: calc(100% / 3);
+    }
+}
+
