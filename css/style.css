@@ -33,4 +33,15 @@ header {
 .float-end {
     float: right;
 }
+/*MAIN*/
+main:nth-child(2n+1) {
+    background-color: #9792E4;
+}
+.col-33 {
+    background-color: #B5DDFF;
+}
+/*FOOTER*/
+footer {
+    background-color: #333333;
+}
 
