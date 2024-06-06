@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .row {
@@ -96,6 +96,20 @@ header {
 .header-col .content {
     line-height: 60px;
 }
+.unstyled-menu {
+    list-style-type: none;
+    display: flex;
+}
+.unstyled-menu li {
+    margin: 0px 10px;
+}
+.unstyled-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.desktop-menu {
+    display: none;
+}
 /*MAIN*/
 main {
     padding-top: 75px;
@@ -184,6 +198,12 @@ footer .container {
     }
     #benefits .col-33 {
         width: calc(100% / 3);
+    }
+    .desktop-menu {
+        display: block;
+    }
+    .mobile-menu {
+        display: none;
     }
 }
 
