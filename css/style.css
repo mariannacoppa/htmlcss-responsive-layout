@@ -4,15 +4,12 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-}
-.content {
-    margin: 10px;
 }
 .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -82,7 +79,6 @@ body {
 .header-col {
     width: 50%;
     height: 75px;
-    border: 2px dashed black;
 }
 header {
     position: fixed;
@@ -97,33 +93,65 @@ header {
 .float-end {
     float: right;
 }
-header .content {
-    height: 75px;
+.header-col .content {
+    line-height: 60px;
 }
 /*MAIN*/
 main {
     padding-top: 75px;
 }
-.bg:nth-child(even) {
+.bg:nth-child(even), #testimonials .content {
     background-color: #9792E4;
-}
-main .container {
-    max-width: 1200px;
-}
-.col-33, .col-66 {
-    background-color: #B5DDFF;
 }
 .col-33, .col-66, .col-25, .col-50, .col-75, .col-100 {
     width: 100%;
     height: 150px;
     border: 1px dashed black;
 }
+.col-66 {
+    height: 300px;
+}
 /*demo*/
-
+#demo .content {
+    background-color: #B5DDFF;
+}
+.content {
+    margin: 10px;
+}
+.bg .content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px dashed black;
+}
+#demo img {
+    max-width: 80%;
+    height: 200px;
+}
 /*planning*/
+.bg-white {
+    background-color: white;
+}
+/*testimonials*/
 
+/*benefits*/
+/*about-us*/
+/*get-started*/
 /*FOOTER*/
 footer {
     background-color: #333333;
+    color: white;
+    text-align: center;
 }
+footer .container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.content.footer {
+    border: 1px dashed white;
+}
+
+/*responsività*/
+
 
