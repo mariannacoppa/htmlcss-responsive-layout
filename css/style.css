@@ -198,9 +198,32 @@ h3 {
 #testimonials h3 {
     color: #9792E4;
 }
-#testimonials img {
+#testimonials p, #testimonials h4 {
+    margin: 40px auto;
+}
+#testimonials .content.violet {
+    display: flex;
+    flex-wrap: wrap;
+}
+.round {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
     border-radius: 50%;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#testimonial1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+#testimonial2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+#testimonial3 {
+    background-image: url(../img/testimonial3.jpg);
 }
 /*benefits*/
 /*about-us*/
@@ -249,6 +272,12 @@ footer a {
     #demo .content {
         min-height: 455px;
     }
+    .round {
+        width: calc(100% / 3 - 40px);
+    }
+    .witness {
+        width: calc(100% / 3 * 2);
+    }
 }
 /*responsività desktop*/
 @media screen and (min-width: 1160px) {
@@ -273,6 +302,19 @@ footer a {
     }
     #demo .content {
         min-height: 400px;
+    }
+    #planning .col-50 {
+        width: 50%;
+    }
+    #planning .col-50:last-of-type {
+        padding-top: 200px;
+        width: 40%;
+    }
+    .round {
+        width: calc(100% / 4 - 60px);
+    }
+    .witness {
+        width: calc(100% / 4 * 3);
     }
 }
 
