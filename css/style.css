@@ -74,6 +74,9 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+.white {
+    color: white;
+}
 /*HEADER*/
 .header-col {
     width: 50%;
@@ -123,7 +126,7 @@ header {
 main {
     padding-top: 75px;
 }
-.bg:nth-child(even), #testimonials .content {
+.bg:nth-child(even), .violet {
     background-color: #9792E4;
 }
 .col-33, .col-66, .col-25, .col-50, .col-70, .col-30, .col-100 {
@@ -137,9 +140,20 @@ h3 {
     font-size: 20px;
     margin: 20px auto;
 }
+.bg img {
+    width: 100%;
+}
+.content {
+    margin: 10px;
+}
+.bg .content {
+    border-radius: 20px;
+    text-align: center;
+}
 /*demo*/
 #demo .content {
     background-color: #B5DDFF;
+    min-height: 250px;
 }
 #demo h3, #demo i:not(.fa-apple) {
     color: #007AE9;
@@ -154,18 +168,11 @@ h3 {
     color: white;
     background-color: #007AE9;
     padding: 10px;
-    margin-bottom: 30px;
     border-radius: 40px;
     border: none;
     font-weight: bold;
 }
-.content {
-    margin: 10px;
-}
-.bg .content {
-    border-radius: 20px;
-    text-align: center;
-}
+
 .bg .content:not(.col-66 .content) {
     padding: 30px;
 }
@@ -174,20 +181,27 @@ h3 {
 }
 .left, .right {
     width: 100%;
-    height: 100%;
 }
 .col-66 h3, .col-66 p {
     text-align: left;
-}
-.right img {
-    height: 400px;
 }
 /*planning*/
 .bg-white {
     background-color: white;
 }
+.fa-arrow-down {
+    background-color: #9792E4;
+    padding: 30px 20px;
+    border-radius: 50px;
+}
 /*testimonials*/
-
+#testimonials h3 {
+    color: #9792E4;
+}
+#testimonials img {
+    border-radius: 50%;
+    width: 100%;
+}
 /*benefits*/
 /*about-us*/
 /*get-started*/
@@ -202,7 +216,6 @@ footer .container {
 }
 footer p {
     font-size: 12px;
-    color: white;
 }
 footer a {
     color: #9792E4;
@@ -233,6 +246,9 @@ footer a {
     .right {
         width: 50%;
     }
+    #demo .content {
+        min-height: 455px;
+    }
 }
 /*responsività desktop*/
 @media screen and (min-width: 1160px) {
@@ -254,6 +270,9 @@ footer a {
     }
     .left, .right {
         width: 50%;
+    }
+    #demo .content {
+        min-height: 400px;
     }
 }
 
