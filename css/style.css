@@ -236,6 +236,15 @@ button {
     font-size: 20px;
 }
 /*about-us*/
+#about {
+    background-image: url(../img/about.jpg);
+} 
+.col-70 {
+    background-color: #333333;
+}
+.col-30 {
+    background-color: yellow;
+}
 /*get-started*/
 /*FOOTER*/
 footer {
@@ -270,10 +279,10 @@ footer a {
         width: 100%;
     }
     .col-70 {
-        width: 70%;
+        width: 60%;
     }
     .col-30 {
-        width: 30%;
+        width: 40%;
     }
     .right {
         width: 50%;
@@ -281,11 +290,14 @@ footer a {
     #demo .content {
         min-height: 455px;
     }
-    .round {
+    #testimonials .round {
         width: calc(100% / 3 - 40px);
     }
-    .witness {
+    #testimonials .witness {
         width: calc(100% / 3 * 2);
+    }
+    #about-us .round {
+        width: calc(100% / 3 + 110px);
     }
 }
 /*responsività desktop*/
@@ -293,7 +305,10 @@ footer a {
     .col-50 {
         width: 50%;
     }
-    #benefits .col-33 {
+    .col-70 {
+        width: calc(100% / 3 * 2);
+    }
+    #benefits .col-33, .col-30 {
         width: calc(100% / 3);
     }
     .desktop-menu {
@@ -319,11 +334,11 @@ footer a {
         padding-top: 200px;
         width: 40%;
     }
-    .round {
+    #testimonials .round {
         width: calc(100% / 4 - 60px);
     }
-    .witness {
-        width: calc(100% / 4 * 3);
+    #about-us .round {
+        width: calc(100% / 3 + 90px);
     }
 }
 
