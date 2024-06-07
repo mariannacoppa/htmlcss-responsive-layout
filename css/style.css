@@ -248,6 +248,16 @@ button {
     margin-right: 10%;
 }
 /*get-started*/
+#get-started h2 {
+    color: #FDC15F;
+    font-size: 50px;
+}
+#get-started p:first-of-type {
+    font-size: 12px;
+}
+#get-started p:last-of-type {
+    font-size: 10px;
+}
 /*FOOTER*/
 footer {
     background-color: #333333;
@@ -260,7 +270,7 @@ footer .container {
 footer p {
     font-size: 12px;
 }
-footer a, .col-70 h2, #about-us .fa-solid, #about-us h3 {
+footer a, .col-70 h2, #about-us .fa-solid, #about-us h3, #get-started button {
     color: #9792E4;
 }
 /*responsività tablet*/
