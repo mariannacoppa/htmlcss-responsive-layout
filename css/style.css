@@ -239,11 +239,13 @@ button {
 #about {
     background-image: url(../img/about.jpg);
 } 
-.col-70 {
-    background-color: #333333;
+#about-us .content {
+    text-align: left;
 }
-.col-30 {
-    background-color: yellow;
+#about-us .fa-quote-left {
+    font-size: 80px;
+    float: inline-end;
+    margin-right: 10%;
 }
 /*get-started*/
 /*FOOTER*/
@@ -258,7 +260,7 @@ footer .container {
 footer p {
     font-size: 12px;
 }
-footer a {
+footer a, .col-70 h2, #about-us .fa-solid, #about-us h3 {
     color: #9792E4;
 }
 /*responsività tablet*/
