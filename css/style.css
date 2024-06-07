@@ -126,7 +126,7 @@ header {
 main {
     padding-top: 75px;
 }
-.bg:nth-child(even), .violet {
+.bg:nth-child(even), .violet, #benefits button {
     background-color: #9792E4;
 }
 .col-33, .col-66, .col-25, .col-50, .col-70, .col-30, .col-100 {
@@ -150,6 +150,12 @@ h3 {
     border-radius: 20px;
     text-align: center;
 }
+button {
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+}
 /*demo*/
 #demo .content {
     background-color: #B5DDFF;
@@ -165,14 +171,8 @@ h3 {
     font-size: 15px;
 }
 #demo button {
-    color: white;
     background-color: #007AE9;
-    padding: 10px;
-    border-radius: 40px;
-    border: none;
-    font-weight: bold;
 }
-
 .bg .content:not(.col-66 .content) {
     padding: 30px;
 }
@@ -195,7 +195,7 @@ h3 {
     border-radius: 50px;
 }
 /*testimonials*/
-#testimonials h3 {
+#testimonials h3, .content.bg-white h2, .content.bg-white h4 {
     color: #9792E4;
 }
 #testimonials p, #testimonials h4 {
@@ -226,6 +226,15 @@ h3 {
     background-image: url(../img/testimonial3.jpg);
 }
 /*benefits*/
+.content.bg-white {
+    text-align: left;
+}
+.content.bg-white h2 {
+    font-size: 60px;
+}
+.content.bg-white h4 {
+    font-size: 20px;
+}
 /*about-us*/
 /*get-started*/
 /*FOOTER*/
